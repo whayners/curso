@@ -1,0 +1,23 @@
+﻿
+@model Quiron.LojaVirtual.Dominio.Entidade.Produto
+
+
+<!-- Define com a cor cinza para o fundo dos produtos -->
+<div class="well">
+
+
+    <!-- Define como Negrito -->
+    <h3> <strong> @Model.Nome </strong> </h3>
+
+
+
+    <!-- Define a cor do botao em azul e alinhado ao lado direito da pagina -->
+    <h3> <span class="pull-right label label-primary"> @Model.Preco.ToString("c") </span> </h3>
+
+
+
+    <!-- Define como Negrito -->
+    <h3> <span class="lead">@Model.Descricao> </span> </h3>
+
+
+</div>
